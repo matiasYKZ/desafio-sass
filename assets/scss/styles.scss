@@ -4,6 +4,7 @@
 $color-red: #FF0000;
 $color-green: #00FF00;
 $color-blue: #0000FF;
+$color-transparent: #00000000;
 /*===================font==========================*/
 @font-face {
     font-family: didot;
@@ -16,7 +17,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: $color-red;
+    background-color: $color-transparent;
     font-family: didot;
     display: flex;
     flex-direction: column;
