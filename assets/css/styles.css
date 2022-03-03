@@ -431,5 +431,54 @@ header .overlay {
     background: url(imagenes/triumphal_arch.mp4);
   }
 }
+/*===================desafio sass 2 ==========================*/
+/*===================maps y map-get ==========================*/
+.desafioSass {
+  background-color: #3673D9;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+/*===================@extends==========================*/
+.btn_cancel, .btn_alert, .btn_success {
+  width: 100px;
+  text-align: center;
+  padding: 5px 0;
+  margin: 2px auto;
+  border-radius: 2px;
+  color: #FFFFFF;
+}
+
+.btn_success {
+  background-color: #108EFF;
+}
+
+.btn_alert {
+  background-color: #FF8516;
+}
+
+.btn_cancel {
+  background-color: #D61E20;
+}
+
+/*===================@mixin==========================*/
+.box_uno {
+  width: 200px;
+  height: 50px;
+  background-color: #33D374;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px;
+}
+
+.box_dos {
+  width: 150px;
+  height: 50px;
+  background-color: #108EFF;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px;
+}
 
 /*# sourceMappingURL=styles.css.map */
